@@ -6,5 +6,5 @@ aunts: ["mary","sally","susan"]
 }
 
 nuclear = family.select { |k,v| k == :sisters || k == :brothers }
-
-puts nuclear
+arr = nuclear.values.flatten
+puts arr 
